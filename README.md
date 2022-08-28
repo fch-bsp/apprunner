@@ -1,4 +1,4 @@
-# Códigos usado para as vídeos aulas sobre AppRunner
+# Códigos usados para as vídeo aulas sobre AppRunner
 
 Neste repositório você poderá ter acesso aos códigos que usamos para as nossas vídeo aulas sobre AppRunner
 
