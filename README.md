@@ -1,1 +1,3 @@
+# USANDO CODEBUILD PARA DEPLOY AUTOMATIZADO NO AWS APP RUNNER
 
+## Criação de uma aplicaçao via Code 
