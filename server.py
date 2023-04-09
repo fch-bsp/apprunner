@@ -65,8 +65,8 @@ import os
 
 # Constantes
 PORT = 8080
-APP_NAME = "APP-Runner! Versão 001 👨‍💻"
-MESSAGE = f"Olá, {os.environ.get('NAME', 'App Runner - Versão 001')}‼️🐍🐧"
+APP_NAME = "APP-Runner! "
+MESSAGE = f"Olá, {os.environ.get('NAME', 'BSP-CLOUD - Versão 001')}‼️🐍🐧"
 
 # Configuração do aplicativo Flask
 app = Flask(__name__)
