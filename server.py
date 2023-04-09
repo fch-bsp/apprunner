@@ -22,7 +22,7 @@
 # if __name__ == "__main__":
 #   app.run(debug=True, host="0.0.0.0", port=PORT)
 
-
+######################## versão 1 ################################
 
 
 # -*- coding: utf-8 -*-
@@ -35,8 +35,8 @@
 
 # # Constantes
 # PORT = 8080
-# APP_NAME = "APP-Runner! Versão 001 👨‍💻"
-# MESSAGE = f"Olá, {os.environ.get('NAME', 'Desenvolvedor')}‼️🐍🐧"
+# APP_NAME = "APP-Runner!"
+# MESSAGE = f"Olá, {os.environ.get('NAME', 'Desenvolvedor - Versão 001 ')}‼️👨‍💻🐍🐧"
 
 # # Configuração do aplicativo Flask
 # app = Flask(__name__)
@@ -51,6 +51,8 @@
 # if __name__ == "__main__":
 #     print(f"{APP_NAME} iniciado. Acesse em http://localhost:{PORT}/")
 #     app.run(debug=True, host="0.0.0.0", port=PORT)
+
+######################## versão 2 ################################
 
 
 # -*- coding: utf-8 -*-
@@ -79,3 +81,7 @@ def root():
 if __name__ == "__main__":
     print(f"{APP_NAME} iniciado. Acesse em http://localhost:{PORT}/")
     app.run(debug=True, host="0.0.0.0", port=PORT)
+
+
+
+######################## versão 3 ################################
