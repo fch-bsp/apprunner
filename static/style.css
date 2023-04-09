@@ -1,0 +1,22 @@
+body {
+    background-color: #F2F2F2;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    color: #2196F3;
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+img {
+    margin-top: 50px;
+    max-width: 400px;
+}

@@ -22,18 +22,49 @@
 # if __name__ == "__main__":
 #   app.run(debug=True, host="0.0.0.0", port=PORT)
 
+
+
+
+# -*- coding: utf-8 -*-
+# """
+# Este é um exemplo de aplicativo web simples usando Flask.
+# """
+
+# from flask import Flask
+# import os
+
+# # Constantes
+# PORT = 8080
+# APP_NAME = "APP-Runner! Versão 001 👨‍💻"
+# MESSAGE = f"Olá, {os.environ.get('NAME', 'Desenvolvedor')}‼️🐍🐧"
+
+# # Configuração do aplicativo Flask
+# app = Flask(__name__)
+
+# # Rota principal
+# @app.route("/")
+# def root():
+#     print("Tratando requisição web. Retornando mensagem.")
+#     return MESSAGE.encode("utf-8")
+
+# # Inicialização do servidor
+# if __name__ == "__main__":
+#     print(f"{APP_NAME} iniciado. Acesse em http://localhost:{PORT}/")
+#     app.run(debug=True, host="0.0.0.0", port=PORT)
+
+
 # -*- coding: utf-8 -*-
 """
 Este é um exemplo de aplicativo web simples usando Flask.
 """
 
-from flask import Flask
+from flask import Flask, render_template
 import os
 
 # Constantes
 PORT = 8080
 APP_NAME = "APP-Runner! Versão 001 👨‍💻"
-MESSAGE = f"Olá, {os.environ.get('NAME', 'Desenvolvedor')}‼️🐍🐧"
+MESSAGE = f"Olá, {os.environ.get('NAME', 'App Runner - Versão 001')}‼️🐍🐧"
 
 # Configuração do aplicativo Flask
 app = Flask(__name__)
@@ -41,8 +72,8 @@ app = Flask(__name__)
 # Rota principal
 @app.route("/")
 def root():
-    print("Tratando requisição web. Retornando mensagem.")
-    return MESSAGE.encode("utf-8")
+    print("Tratando requisição web. Retornando página HTML.")
+    return render_template('index.html', message=MESSAGE)
 
 # Inicialização do servidor
 if __name__ == "__main__":
